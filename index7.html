@@ -1,0 +1,97 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Absolute vs Relative Path</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    table {
+      width: 90%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 12px 16px;
+      text-align: left;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #004466;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Difference Between Absolute Path and Relative Path</h1>
+
+  <table>
+    <tr>
+      <th>Feature</th>
+      <th>Absolute Path</th>
+      <th>Relative Path</th>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>Complete path from the root directory to the target file</td>
+      <td>Path relative to the current working directory</td>
+    </tr>
+    <tr>
+      <td>Starts From</td>
+      <td>Root directory (/ or C:\)</td>
+      <td>Current directory (.) or parent directory (..)</td>
+    </tr>
+    <tr>
+      <td>Consistency</td>
+      <td>Always points to the same location</td>
+      <td>Depends on current directory</td>
+    </tr>
+    <tr>
+      <td>Example (Linux)</td>
+      <td>/home/user/docs/file.txt</td>
+      <td>docs/file.txt</td>
+    </tr>
+    <tr>
+      <td>Example (Windows)</td>
+      <td>C:\Users\Aman\Documents\file.txt</td>
+      <td>Documents\file.txt</td>
+    </tr>
+    <tr>
+      <td>Use Case</td>
+      <td>Accessing fixed system files</td>
+      <td>Project structure portability</td>
+    </tr>
+    <tr>
+      <td>Clarity</td>
+      <td>Clear and unambiguous</td>
+      <td>Can be confusing if directory changes</td>
+    </tr>
+    <tr>
+      <td>Preferred When</td>
+      <td>Exact location is known and fixed</td>
+      <td>Within project or shared codebases</td>
+    </tr>
+  </table>
+
+</body>
+</html>
+
+
+
+
+
