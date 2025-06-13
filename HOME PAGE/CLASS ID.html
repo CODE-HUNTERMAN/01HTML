@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Class vs ID</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f8f9fa;
+    }
+    h2 {
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 12px 15px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background-color: #343a40;
+      color: #ffffff;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Comparison between <code>class</code> and <code>id</code> in HTML/CSS</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Feature</th>
+        <th><code>class</code></th>
+        <th><code>id</code></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Purpose</td>
+        <td>Applies styles to <strong>multiple elements</strong></td>
+        <td>Applies styles to <strong>one unique element</strong></td>
+      </tr>
+      <tr>
+        <td>Reusability</td>
+        <td>Can be reused on <strong>many elements</strong></td>
+        <td>Should be used only <strong>once per page</strong></td>
+      </tr>
+      <tr>
+        <td>Selector in CSS</td>
+        <td>Uses dot: <code>.className</code></td>
+        <td>Uses hash: <code>#idName</code></td>
+      </tr>
+      <tr>
+        <td>Syntax in HTML</td>
+        <td><code>&lt;div class="box"&gt;</code></td>
+        <td><code>&lt;div id="header"&gt;</code></td>
+      </tr>
+      <tr>
+        <td>Best Use Case</td>
+        <td>Group styling for repeated elements</td>
+        <td>Target unique sections like headers/footers</td>
+      </tr>
+      <tr>
+        <td>JavaScript Access</td>
+        <td><code>getElementsByClassName("box")</code></td>
+        <td><code>getElementById("header")</code></td>
+      </tr>
+      <tr>
+        <td>Priority in CSS</td>
+        <td>Lower specificity</td>
+        <td>Higher specificity</td>
+      </tr>
+      <tr>
+        <td>CSS Example</td>
+        <td><code>.box { color: red; }</code></td>
+        <td><code>#header { color: blue; }</code></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
