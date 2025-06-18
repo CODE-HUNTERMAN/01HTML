@@ -206,9 +206,8 @@ Want to improve or add examples?
 
 ## 💬 Contact
 
-Made with ❤️ by **[Your Name]**  
-📧 Email: you@example.com  
-🌐 Website: [yourwebsite.com](https://yourwebsite.com)
+Made with ❤️ by **AMAN SINGH**  
+📧 Email: aaman_be23@thapar.edu  
 
 ---
 
